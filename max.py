@@ -8,3 +8,9 @@ if b> max:
 if c> max:
     max = c
 print(f"số lớn nhất là {max}")
+min = a
+if b< min:
+    min = b
+if c< min:
+    min = c
+print(f"số nhỏ nhất là {min}")
