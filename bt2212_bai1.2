@@ -1,0 +1,11 @@
+import math
+a = float(input("nhập cạnh thứ nhất của tam giác:"))
+b = float(input("nhập cạnh thứ hai của tam giác:"))
+c = float(input("nhập cạnh thứ ba của tam giác:"))
+
+C = a + b+ c
+p = 1/2 *( a+b+c )
+S = math.sqrt( p*(p-a)*(p-b)*(p-c))
+
+print(f"chu vi tam giác là: {C:.2f}")
+print(f"diện tích tam giác là: {S:.2f}")
